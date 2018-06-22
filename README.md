@@ -6,10 +6,10 @@
 
 1. Create an MVC5 server with a ChatHub as detailed [here](https://docs.microsoft.com/en-us/aspnet/signalr/overview/getting-started/tutorial-getting-started-with-signalr-and-mvc)
 
-2. Add to the ChatHub the following code
+2. To the ChatHub, add the following code
 
 ```C#
-/// <summary>
+		/// <summary>
         /// Angular version.
         /// </summary>
         /// <param name="connectionId">The signalR connection to return to</param>
@@ -39,7 +39,11 @@ public partial class Startup
 
 4. Clone this repro (if you haven't already)
 
-5. Navigate to the property and `ng serve` as you would with the 'tour of heroes' tutorial
+5. Start the server running.
+
+6. In Back in the client, go to src/app/services/signal-rservice.service (can you tell it was done in a rush?), set the hubConnection to the correct url.
+
+5. Navigate to the project in the command line and `ng serve` as you would with the 'tour of heroes' tutorial (might need to do `npm install` first time round).
 
 
 
