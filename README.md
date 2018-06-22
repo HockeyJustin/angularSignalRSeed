@@ -1,4 +1,8 @@
-#Angular SignalR Boostrap Seed (Contains tour of heroes tutorial)
+# Angular SignalR Boostrap Seed 
+
+(contains tour of heroes tutorial - see below)
+
+## Setup (inc Chat Hub for signalR)
 
 1. Create an MVC5 server with a ChatHub as detailed [here](https://docs.microsoft.com/en-us/aspnet/signalr/overview/getting-started/tutorial-getting-started-with-signalr-and-mvc)
 
